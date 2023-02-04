@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=devive-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ryotaro Nishida</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/077d072d50.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="scroll-up-btn">
+    <a href="#"><i class="fa-solid fa-angles-up"></i></a>
+</div>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logoryotaro.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">Profile</a></li>
+                <li><a href="#blog">My Journey</a></li>
+                <li><a href="recital.html">Videos</a></li>
+                <li><a href="lesson.html">Lessons</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1><span>RYOTARO&nbsp;NISHIDA</span><br>西田遼太郎</h1>
+            <p>Official website</p>
+        </div>
+    </div>
+</div>
+<!-- ---------------about--------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/ryou07.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A classically trained pianist proficient in both solo and ensemble performances. 
+                A competent and experienced music educator with an eye for musical detail and the ability 
+                to personalise lessons that cater to the needs and interests of each individual student. 
+                Seeking to obtain a position that offers both a challenge and opportunity for growth to benefit 
+                knowledge learnt and experience earned alongside professionals. For the last 7 years, I have been 
+                teaching piano for students aged 3 - 50. Accomplished in building trust and relationships between 
+                students, parents, and administrators.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p> 
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Classical concert pianist</span><br>Performing solo and recitals</li>
+                        <li><span>Talented accompanist</span><br>Teaching music for schools</li>
+                        <li><span>Dedicated music teacher</span><br>Singing in the toilet</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>April 2015 ~ present</span><br>Concert Pianist and Music Accompanist<br>[Freelance]</li>
+                        <li><span>May 2021 ~ present</span><br>Kawasaki Tsuchihashi Elementary School<br>[Music teacher]</li>
+                        <li><span>December 2017 ~ present</span><br>Piano class (Paris, France & Yokohama, Japan)<br>[Private piano teacher] </li>
+                        <li><span>September 2015 ~ March 2017</span><br>University Music Course teacher<br>[Teaching Assistant]</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017</span><br>Diplôme Suprieur d'Exécution (Advanced Piano) at École Normale de Musique Conservatory, Paris</li>
+                        <li><span>2014</span><br>Master's degree in Music Education at National Niigata University, Japan</li>
+                        <li><span>2011</span><br>Bachelor of Music Art at National Niigata University, Japan</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</div>
+<!-- ---------portfolio----------- 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Journey</h1>
+            <div class="box">
+                <div class="dream">
+                    <img class="main-image" src="images/ryou01.jpg">
+                    <span><i class="fa-regular fa-heart"></i></span>
+                        <span>Memories</span>
+                        <div class="design-title">
+                        <a href="#">Caption Goes Here</a>
+                    </div>
+                        <img class="main-image" src="images/ryou02.jpg">
+                            <img class="main-image" src="images/ryou03.jpg">
+                                <img class="main-image" src="images/ryou04.jpg">
+                </div>
+                <div class="dream">
+                    <img class="main-image" src="images/ryou05.jpg">
+                        <img class="main-image" src="images/ryou06.png">
+                            <img class="main-image" src="images/ryou07.jpg">
+                                <img class="main-image" src="images/ryou08.jpg">
+                </div>
+                <div class="dream">
+                    <img class="main-image" src="images/ryou09.jpg">
+                        <img class="main-image" src="images/ryou10.jpg">
+                            <img class="main-image" src="images/ryou11.jpg"> 
+                                <img class="main-image" src="images/piano1.jpg"> 
+                </div>
+            </div>
+        <a href="recital.html" class="btn">演奏動画</a>
+    </div>
+</div> -->
+<!-- ---------blog section----------- -->
+<div id="blog">
+    <div class="container01">
+        <h1 class="sub-title01">My Journey</h1>
+            <p>as a pianist</p>
+        <div class="blog-container">
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory01.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory02.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory03.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory04.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory05.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory06.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory07.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory08.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory09.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory10.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory11.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory12.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory13.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/memory14.JPG" alt="Blog">
+                </div>
+                <div class="blog-text">
+                    <span>18 July 2021</span>
+                    <p>caption</p>
+                </div>
+            </div>
+
+        </div>
+        <a href="recital.html" class="btn">演奏動画へ</a>
+    </div>
+</div>
+<!-- ---------blog----------- 
+<div id="blog">
+    <section class="design" id ="design">
+        <div class="container-blog">
+            <div class="title-blog">
+                <h2>My Journey</h2>
+                <p>recent photo on the blog</p>
+            </div>
+            <div class="design-content">
+                <div class="design-item">
+                    <div class="design-img">
+                        <img src="images/memory01.JPG" alt="">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span>Memories</span>
+                    </div>
+                    <div class="design-title">
+                        <a href="#">Caption Goes Here</a>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <div class="design-img">
+                        <img src="images/memory02.JPG" alt="">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span>Memories</span>
+                    </div>
+                    <div class="design-title">
+                        <a href="#">Caption Goes Here</a>
+                    </div>
+                </div>
+                <div class="design-item">
+                    <div class="design-img">
+                        <img src="images/memory03.JPG" alt="">
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span>Memories</span>
+                    </div>
+                    <div class="design-title">
+                        <a href="#">Caption Goes Here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div> -->
+<!-- ---------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 clas="sub-title">My Contact</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>yusuzumi71@gmail.com</p>
+                <!-- <p><i class="fa-sharp fa-solid fa-phone-volume"></i>123456789</p> -->
+                <div class="sosial-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/ResumeRyotaro.pdf" download class="btn btn2">CV Download</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="お名前" required>
+                    <input type="email" name="Email" placeholder="メールアドレス" required>
+                    <textarea name="Message" rows="6" placeholder="メッセージ""></textarea>
+                    <button type="submit" class="btn btn3">送信</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Created by <a href="https://www.instagram.com/myruliskandar/">AmirulIskandar</a> <i class="fa-solid fa-feather"></i>&nbsp;&nbsp;2023 All rights reserved.</p> 
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = '<SCRIPT URL letak url sini>'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html> 
