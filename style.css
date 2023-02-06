@@ -735,8 +735,9 @@ nav .fa-solid{
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 650px){
     #header{
+        height: 100vh;
         background-image: url(images/ryou04.jpg);
     }
     
@@ -747,7 +748,7 @@ nav .fa-solid{
         display: none;
     }
     .header-text{
-        margin-top: 130%;
+        margin-top: 100%;
         font-size: 17px;
     }
     .header-text h1 span{
