@@ -659,10 +659,9 @@ nav .fa-solid{
         display: none;
     }
     .header-text{
-        background-color: none;
         margin-top: 100%;
         font-size: 17px;
-        padding-top: 235px;
+        padding-top: 100px;
         padding-right: 20px;
     }
     .header-text h1 span{
