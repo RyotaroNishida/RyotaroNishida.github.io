@@ -59,7 +59,7 @@
 <div id="blog">
     <div class="container01">
         <h1 class="sub-title01">My Journey</h1>
-            <p>as a pianist</p>
+        <p>as a pianist</p>
         <div class="blog-container">
             <div class="blog-box">
                 <div class="blog-img">
@@ -74,7 +74,7 @@
                     <img src="images/memory02.JPG" alt="Blog">
                 </div>
                 <div class="blog-text">
-                    <p>Multicolored Piano コンサート in 三ノ輪</p>
+                    <p>Multicolored Piano コンサートin三ノ輪</p>
                 </div>
             </div>
             <div class="blog-box">
@@ -82,7 +82,7 @@
                     <img src="images/memory03.JPG" alt="Blog">
                 </div>
                 <div class="blog-text">
-                    <p>ピアノコンサート　in 山形</p>
+                    <p>ピアノコンサートin山形</p>
                 </div>
             </div>
             <div class="blog-box">
@@ -90,7 +90,7 @@
                     <img src="images/memory04.JPG" alt="Blog">
                 </div>
                 <div class="blog-text">
-                    <p>ピアノ　トリオ　in 東京</p>
+                    <p>ピアノトリオin東京</p>
                 </div>
             </div>
             <div class="blog-box">
@@ -98,7 +98,7 @@
                     <img src="images/memory05.JPG" alt="Blog">
                 </div>
                 <div class="blog-text">
-                    <p>近野桂介&西田遼太郎　デュオコンサート in 山形</p>
+                    <p>近野桂介&西田遼太郎:デュオコンサートin山形</p>
                 </div>
             </div>
             <div class="blog-box">
@@ -106,7 +106,7 @@
                     <img src="images/memory06.JPG" alt="Blog">
                 </div>
                 <div class="blog-text">
-                    <p>ピアノ発表会　in フランス　アントニー</p>
+                    <p>ピアノ発表会inフランスアントニー</p>
                 </div>
             </div>
             <div class="blog-box">
@@ -122,7 +122,7 @@
                     <img src="images/memory08.JPG" alt="Blog">
                 </div>
                 <div class="blog-text">
-                    <p>Midi et Demi コンサート　in フランス パリ</p>
+                    <p>Midi et Demi コンサートinフランス,パリ</p>
                 </div>
             </div>
             <div class="blog-box">
@@ -130,7 +130,7 @@
                     <img src="images/memory09.JPG" alt="Blog">
                 </div>
                 <div class="blog-text">
-                    <p>ピアノジョイントコンサート　in フランス パリ</p>
+                    <p>ピアノジョイントコンサートinフランス,パリ</p>
                 </div>
             </div>
             <div class="blog-box">
@@ -146,7 +146,7 @@
                     <img src="images/memory10.JPG" alt="Blog">
                 </div>
                 <div class="blog-text">
-                    <p>デュオコンサート in フランス パリ</p>
+                    <p>デュオコンサート in フランス,パリ</p>
                 </div>
             </div>
             <div class="blog-box">
@@ -154,7 +154,7 @@
                     <img src="images/memory12.JPG" alt="Blog">
                 </div>
                 <div class="blog-text">
-                    <p>ホームコンサート　in フランス パリ</p>
+                    <p>ホームコンサートinフランス,パリ</p>
                 </div>
             </div>
             <div class="blog-box">
@@ -184,14 +184,12 @@
             <div class="contact-left">
                 <h1 clas="sub-title">My Contact</h1>
                 <p><i class="fa-solid fa-paper-plane"></i>yusuzumi71@gmail.com</p>
-                <!-- <p><i class="fa-sharp fa-solid fa-phone-volume"></i>123456789</p> -->
                 <div class="sosial-icons">
-                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <!--a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></!--a-->
                     <a href="https://www.instagram.com/nisiyan331/?igshid=ZDdkNTZiNTM%3D"><i class="fa-brands fa-instagram"></i></a>
                     <a href="遼太郎 Ryotaro (@fps0xk)さんをチェックしよう https://twitter.com/fps0xk?t=hkr1NgpKq96ZPI3X_Mahrw&s=06"><i class="fa-brands fa-twitter"></i></a>
-                    <!--a href="#"><i class="fa-brands fa-linkedin"></i></!--a-->
                 </div>
-                <a href="images/ResumeRyotaro.pdf" download class="btn btn2">CV Download</a>
+                <!--a href="images/ResumeRyotaro.pdf" download class="btn btn2">My CV</-a-->
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
@@ -234,7 +232,7 @@
     }
 </script>
 <script>
-  const scriptURL = '<SCRIPT URL letak url sini>'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyJkht0IRon7pIcGmxe21KDOe7pmRckZ-vJXUFNI9VS0w1KgXrWpGxckQgjWG6i5p6xUQ/exec'
   const form = document.forms['submit-to-google-sheet']
   const msg = document.getElementById("msg")
 
@@ -245,25 +243,11 @@
         msg.innerHTML = "Message sent successfully"
         setTimeout(function(){
             msg.innerHTML = ""
-        }, 5000)
+        }, 3000)
         form.reset()
       })
       .catch(error => console.error('Error!', error.message))
   })
 </script>
-<!-- Image Slider Close -->
-  <script>
-    var counter = 1;
-    setInterval(function()  {
-      document.getElementById('radio'+ counter).checked = true;
-      counter++; 
-
-      if(counter>4){
-        counter=1
-      }
-
-    }, 5000);
-  </script>
-
 </body>
 </html> 

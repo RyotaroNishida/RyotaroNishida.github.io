@@ -1,3 +1,72 @@
+/* ---------------portfolio--------------- */
+/*#portfolio{
+    padding: 50px 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container01{
+    padding: 10px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 20px 0 20px;
+}
+.container01 .sub-title01{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 0px;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.blog-box{
+    width: 390px;
+    height: 370px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+.blog-text .blog-title:hover{
+    color: #f33c3c;
+    transition: all ease 0.3s;
+}
+.blog-text p{
+    color: #272727;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 0;
+}*/
 *{
     margin: 0;
     padding: 0;
@@ -85,34 +154,35 @@ nav ul li a:hover::after{
     color: #fff;
 }
 .header-text{
-    margin-top: 35%;
-    padding-right: 800px;
+    margin-top: 30%;
+    text-align: left;
+    padding-right: 150px;
     font-size: 30px;
 }
 .header-text p{
-    font-size: 35px;
+    font-size: 20px;
     color: black;
     font-weight: bold;
-    text-align: right;
+    text-align: left;
+    letter-spacing: 4px;
 }
 .header-text h1{
     color: black; 
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
-    font-size: 45px; 
-    font-weight: bolder; 
+    font-size: 46px; 
+    font-weight: bold; 
     letter-spacing: 0px; 
     line-height: 1; 
-    text-align: right;
+    text-align: left;
 }
 .header-text h1 span{
     font-family: 'Helvetica Neue', sans-serif; 
-    font-size: 58px;
+    font-size: 80px;
     font-weight: bold; 
-    color: rgb(119, 8, 8) ;
+    color: rgb(119, 8, 8);
 }
-/* ---------------about--------------- */
+/*----------------------------- About---------------------------- */
 #about{
-    padding: 120px 0;
+    padding: 85px 0;
     color: #ababab;
     background-color: #262626;
 }
@@ -128,12 +198,9 @@ nav ul li a:hover::after{
     width: 100%;
     border-radius: 15px;
     object-fit: cover;
-    width: 500px;
-    height: 800px;
 }
-
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 50%;
 }
 .about-col-2 p{
     font-size: 18px;
@@ -142,200 +209,145 @@ nav ul li a:hover::after{
 .sub-title{ /*this one is used for all*/
     font-size: 60px;
     font-weight: 600;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: #fff;
 }
-
-/* ---------------services--------------- */
-#services{
-    padding: 30px 0;
-}
-.services-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 30px;
-}
-.services-list div{
-    background: #262626;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
-}
-.services-list div i{
-    font-size: 50px ;
-    margin-bottom: 30px;
-}
-.services-list div i h2{
-    font-size: 30px ;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.services-list div a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
-.services-list div:hover{
-    background: #0080ff;
-    transform: translate(-10px); 
-}
-/* ---------------portfolio--------------- */
-#portfolio{
+/*------------------------------------ Blog -------------------------------------*/
+#blog {
     padding: 50px 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-.container01{
-    padding: 10px 10%;
+  }
+  .container01 {
+    padding: 10px 4%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
     margin: 20px 20px 0 20px;
-}
-.container01 .sub-title01{
+  }
+  .sub-title01 {
+    font-size: 40px;
+    font-weight: bold;
     font-size: 60px;
-    font-weight: 600;
     color: #fff;
-    padding-bottom: 0px;
-}
-.blog-container{
+  }
+  .container01 .sub-title01 + p{
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  .blog-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
-    flex-wrap: wrap;
-}
-.blog-box{
-    width: 390px;
-    height: 370px;
-    background-color: #ffffff;
-    border: 1px solid #ececec;
-    margin: 20px;
-}
-.blog-img{
-    width: 100%;
-    height: auto;
-}
-.blog-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.blog-text{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-}
-.blog-text .blog-title{
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: #272727;
-}
-.blog-text .blog-title:hover{
-    color: #f33c3c;
-    transition: all ease 0.3s;
-}
-.blog-text p{
-    color: #272727;
-    font-size: 0.9rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 5px 0;
-}
-
-
-/*------ lesson ----- */
-.message{
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-.container-lesson h3{
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 70px;
-    color: #0044ff;
-    letter-spacing: 30px;
-}
-.container-lesson h3 span{
-    font-family: sans-serif;
-    font-size: 30px;
-    color: white;
-    letter-spacing: 5px;
-}
-.container-lesson{
-    padding: 60px 10%;
-    font-size: 40px;
-    text-align: center;
-    color: #fff;
-}
-.work-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-.work{
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-}
-.work img{
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
-}
-.layer{
-    width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(0,0,0,0.7), #0091ffc7);
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: content;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: center;
-    font-size: 14px;
-    transition: height 0.5s;
-}
-.layer h3{
-    font-weight: 500;
-    margin-top: 60px;
-}
-.layer a{
-    margin-top: 20px;
-    color: maroon;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
+  }
+  .blog-box {
+    width: 330px;
+    height: 330px;
+    margin: 15px;
     background-color: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+    border: 3px solid #ececec;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .blog-box:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  .blog-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .blog-text {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
     text-align: center;
-}
-.work:hover img{
-    transform: scale(1.1);
-}
-.work:hover .layer{
-    height: 100%;
-} 
-/*-----------*/
+  }
+  .blog-text p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0;
+  }
+/*--------------------------- lesson ------------------------------------------------ */
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+  .container-lesson {
+    max-width: 1350px;
+    padding: 30px 10%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .container-lesson h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    padding: 14px 10%;
+    margin-top: 45px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+  }
+  .container-lesson p {
+    font-family: "Hannari", cursive;
+    font-size: 40px;
+    color: #fff;
+  }
+  section {
+    text-align: center;
+  }
+  section h2 {
+    font-family: "Nikukyu", sans-serif;
+    position: relative;
+    font-size: 32px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 3px;
+    background-color: #fff;
+  }
+  article {
+    padding: 28px;
+    border: 3px solid #0044ff;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #333;
+  }
+  article h3 {
+    font-family: "Kosugi", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  article p {
+    font-family: "Yusei Magic", sans-serif;
+    font-size: 19px;
+    margin-bottom: 0;
+  }
+  remark {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  remark h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  remark p {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+/*-------------------------------------------------------------------*/
 .btn{
     display: block;
     margin: 50px auto;
@@ -351,9 +363,7 @@ nav ul li a:hover::after{
 .btn:hover{
     background: #005effac;
 }
-
-/* ---------------contact--------------- */
-
+/* -----------------------------------contact-------------------------------------------- */
 .contact-left{
     flex-basis: 35%;
 }
@@ -454,7 +464,7 @@ form .btn2{
 .copyright i{
     color: rgb(5, 7, 9);
 }
-/*-----recital pages-------*/
+/*------------------------------------------performances--------------------------------------------*/
 #header1{
     width: 100%;
     height: 80vh;
@@ -500,54 +510,6 @@ form .btn2{
     text-align: center;
     margin: 10px 0;
 }
-/*.container1 .video-container .video video:hover{
-    transform: scale(1.1);
-    transition: 0.2s linear;
-}
-.container1 .video-container .video .active{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: auto;
-    width: 80%;
-    box-shadow: 0 0 0 100vh rgba(0,0,0,.7);
-    z-index: 1;
-}
-.container1 .video-container .video .active:hover{
-    transition: none;
-    transform: translate(-50%, -50%) scale(1);
-}
-/*.container1 .popup-video{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    background: rgba(0,0,0,.8);
-    height: 100%;
-    width: 100%;
-    display: none ;
-}
-.container1 .popup-video video{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    border: 3px solid #fff;
-    border-radius: 5px;
-    object-fit: cover;
-}
-.container1 .popup-video span{
-    position: absolute;
-    top: 5px; right: 20px;
-    font-size: 50px;
-    color: #fff;
-    font-weight: bolder;
-    z-index: 100;
-    cursor: pointer;
-}*/
-
 .btn1{
     display: block;
     margin: 20px auto;
@@ -587,7 +549,7 @@ form .btn2{
 .copyright1 i{
     color: rgb(5, 7, 9);
 }
-/*---banner------*/
+/*---------------------------------banner------------------------------------------*/
 .banner{
     position: relative;
     background: url(images/banner03.JPG) no-repeat center bottom;
@@ -617,18 +579,40 @@ form .btn2{
     border: 10px solid #fff;
     padding: 14px 12px;
     display: inline-block;
-    
 }
 .cen{
     margin: 20px;
     display: block;
     font-size: 26px;
 }
-/* ---------------css for small screen--------------- */
+/* ---------------------------------------css for small screen----------------------------------- */
 nav .fa-solid{
     display: none;
 }
-
+@media (max-width: 768px) {
+    #header {
+      height: 100vh;
+    }
+    .header-text {
+      margin-top: 10%;
+    }
+    .header-text h1 {
+      font-size: 6vw;
+    }
+    .header-text p {
+      font-size: 4vw;
+    }
+}
+@media(min-width:768px) and (max-width:1024px){
+    header {
+        height: 100vh;
+      }
+}
+@media(max-width:1250px){
+    header {
+        height: 100vh;
+      }
+}
 @media(max-width:1250px){
     .blog-box{
         width: 300px;
@@ -645,11 +629,9 @@ nav .fa-solid{
         margin: 20px 10px;
     }
 }
-
 @media only screen and (max-width: 650px){
     #header{
         height: 100vh;
-        background-image: url(images/ryou04.jpg);
     }
     
     .container{
@@ -673,8 +655,9 @@ nav .fa-solid{
         text-align: left;
     }
     .header-text p{
-        font-size: 22px;
+        font-size: 15px;
         text-align: left;
+        letter-spacing: 0px;
     }
     .logo{
         width: 150px;
@@ -712,13 +695,13 @@ nav .fa-solid{
         font-size: 30px;
     }
     .blog-box{
-        height: 310px;
+        height: 320px;
         width: 320px;
         margin: 10px;
     }
     .blog-text p{
         margin: 0px 0;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .blog-img{
         width: fit-content;
@@ -786,6 +769,9 @@ nav .fa-solid{
         color: #fff;
         padding-bottom: 0px;
     }
+    .container01 .sub-title01 + p{
+        font-size: 20px;
+    }
     .container1{
         font-size: 20px;
         padding-bottom: 60px;
@@ -819,7 +805,6 @@ nav .fa-solid{
         border: 5px solid #fff;
         padding: 10px 10px;
         display: inline-block;
-        
     }
     .cen{
         font-size: 20px;
@@ -853,8 +838,111 @@ nav .fa-solid{
     }
     
 }
-#span{
-    color: #61b752;
+#msg{
+    color: #1143e8;
     margin-top: -40px;
     display: block;
 }
+/* Styles for screens smaller than 768px wide */
+@media (max-width: 767px) {
+    main {
+      padding: 2rem 1rem;
+    }
+    .container-lesson h1 {
+      font-size: 40px;
+    }
+    .container-lesson p {
+      font-size: 28px;
+    }
+    section h2 {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    article h3 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    article p {
+      font-size: 18px;
+    }
+    remark h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    remark p {
+      font-size: 20px;
+    }
+  }
+  
+  /* Styles for screens between 768px and 1024px wide */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    main {
+      max-width: 768px;
+      padding: 3rem 1.5rem;
+    }
+    .container-lesson h1 {
+      font-size: 50px;
+    }
+    .container-lesson p {
+    font-size: 32px;
+    }
+    section h2 {
+      font-size: 28px;
+      margin-bottom: 60px;
+    }
+    article h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    article p {
+      font-size: 20px;
+    }
+    remark h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    remark p {
+      font-size: 22px;
+    }
+  }
+  
+  /* Styles for screens larger than 1024px wide */
+  @media (min-width: 1025px) {
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+    .container-lesson {
+      max-width: 1350px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .container-lesson h1 {
+      font-size: 70px;
+      padding: 10px 10%;
+    }
+    .container-lesson p {
+      font-size: 40px;
+    }
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 70px;
+    }
+    article h3 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    article p {
+      font-size: 19px;
+      margin-bottom: 0;
+    }
+    remark h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    remark p {
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+  }

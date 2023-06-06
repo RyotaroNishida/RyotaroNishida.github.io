@@ -29,35 +29,15 @@
                     <video controls poster="videos/video02.png">
                         <source src="videos/vid02.mp4" type="video/mp4">
                     </video>
-                    <h3>C.Debussy Préludes 1 <br>"La fille aux cheveux de lin" <br>第1集より「亜麻色の髪の乙女」</h3>
+                    <h3>C.Debussy Préludes 1 <br>"La cathédrale engloutie" <br>前奏曲集 第1集より「沈める寺」</h3>
                 </div>
                 <div class="video">
                     <video controls poster="videos/video03.png">
                         <source src="videos/vid03.mp4" type="video/mp4">
                     </video>
-                    <h3>C.Debussy Préludes 1 <br>"La cathédrale engloutie" <br>前奏曲集 第1集より「沈める寺」</h3>
+                    <h3>C.Debussy Préludes 1 <br>"La fille aux cheveux de lin" <br>第1集より「亜麻色の髪の乙女」</h3>
                 </div>
             </div>
-                <!--<div id="vid">
-                    <div class="video">
-                        <video src="videos/vid01.mp4" controls></video>
-                        <p class="vid-title">01. Video description goes here</p>
-                    </div>  
-                    <div class="video">
-                        <video src="videos/vid02.mp4" controls></video>
-                        <h3 class="vid-title">01. Video description goes here</h3>
-                    </div> 
-                    <div class="video">
-                        <video src="videos/vid03.mp4" controls></video>
-                    </div> 
-                </div>-->
-            
-            <!--div class="popup-video">
-                <span>&times;</span>
-                <video src="videos/vid01.mp4" autoplay controls></video>
-                <video src="videos/vid02.mp4" autoplay controls></video>
-                <video src="videos/vid03.mp4" autoplay controls></video>
-            </div-->
             <a href="index.html" class="btn1">Back to home</a>
         </div>
         <div id="footer">
@@ -67,21 +47,17 @@
         </div>
     </div>
     <script>
-    var video = document.querySelectorAll('video')
-    video.forEach(play => play.addEventListener('click', ()=>{
-        play.classList.toggle('active');
+        var video = document.querySelectorAll('video')
+        video.forEach(play => play.addEventListener('click', ()=>{
+            play.classList.toggle('active');
 
-    if(play.paused){
-        play.play();
-    }else{
-        play.paused();
-        play.currentTime = 0;
-    }
-    }));    
-    
-
-
+        if(play.paused){
+            play.play();
+        }else{
+            play.paused();
+            play.currentTime = 0;
+        }
+        }));    
     </script>
-    
     </body>
 </html>
