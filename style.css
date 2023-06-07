@@ -589,20 +589,6 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
-@media (max-width: 768px) {
-    #header {
-      height: 100vh;
-    }
-    .header-text {
-      margin-top: 10%;
-    }
-    .header-text h1 {
-      font-size: 6vw;
-    }
-    .header-text p {
-      font-size: 4vw;
-    }
-}
 @media(min-width:768px) and (max-width:1024px){
     header {
         height: 100vh;
@@ -612,8 +598,6 @@ nav .fa-solid{
     header {
         height: 100vh;
       }
-}
-@media(max-width:1250px){
     .blog-box{
         width: 300px;
     }
@@ -629,11 +613,10 @@ nav .fa-solid{
         margin: 20px 10px;
     }
 }
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 768px){
     #header{
         height: 100vh;
     }
-    
     .container{
         padding-bottom: 10px;
     }
@@ -852,25 +835,25 @@ nav .fa-solid{
       font-size: 40px;
     }
     .container-lesson p {
-      font-size: 28px;
+      font-size: 18px;
     }
     section h2 {
-      font-size: 24px;
+      font-size: 18px;
       margin-bottom: 40px;
     }
     article h3 {
-      font-size: 24px;
+      font-size: 18px;
       margin-bottom: 15px;
     }
     article p {
-      font-size: 18px;
+      font-size: 14px;
     }
     remark h3 {
-      font-size: 20px;
+      font-size: 14px;
       margin-bottom: 5px;
     }
     remark p {
-      font-size: 20px;
+      font-size: 14px;
     }
   }
   
@@ -881,28 +864,28 @@ nav .fa-solid{
       padding: 3rem 1.5rem;
     }
     .container-lesson h1 {
-      font-size: 50px;
+      font-size: 46px;
     }
     .container-lesson p {
-    font-size: 32px;
+    font-size: 28px;
     }
     section h2 {
-      font-size: 28px;
+      font-size: 24px;
       margin-bottom: 60px;
     }
     article h3 {
-      font-size: 28px;
+      font-size: 22px;
       margin-bottom: 20px;
     }
     article p {
       font-size: 20px;
     }
     remark h3 {
-      font-size: 22px;
+      font-size: 20px;
       margin-bottom: 10px;
     }
     remark p {
-      font-size: 22px;
+      font-size: 20px;
     }
   }
   
